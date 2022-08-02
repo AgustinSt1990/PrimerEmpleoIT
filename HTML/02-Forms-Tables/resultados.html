@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados</title>
+    
+    <!-- <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/pyodide/v0.20.0/full/pyodide.js"></script> -->
+
+    <!-- <py-env>
+        - js
+    </py-env> -->
+
+</head>
+<body>
+    <h3>Estos son los resultados</h3>
+    <div id="resultados"></div>
+    
+    <br>
+    
+    <a href="/HTML/02-Forms-Tables/formularios.html">Volver a formularios</a>
+    
+    <!-- <py-script> -->
+        <!-- import js -->
+        <!-- resultados = Element(resultados) -->
+        <!-- div = js.document.createElement("div")
+        div.innerHTML = "<h1>This element was created from Python</h1>"
+        js.document.body.prepend(div) -->
+
+    <!-- </py-script> -->
+
+
+    <script>
+        const resDiv = document.getElementById("resultados")
+        new URLSearchParams(window.location.search).forEach((val, name) => {
+            resDiv.append(`${name}: ${val}`)
+            resDiv.append(document.createElement('br'))
+        })
+    </script>
+</body>
+</html>
