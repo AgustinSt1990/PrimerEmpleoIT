@@ -1,0 +1,12 @@
+#elemento-1 {
+    color: red;
+}
+
+/* #elemento-1 { 
+    .lista-1 {
+    font-size: 2rem;
+    }} */
+
+.lista-1 #elemento-1 {
+        font-size: 2rem;            
+    }

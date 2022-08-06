@@ -1,0 +1,67 @@
+h1 {
+    color: red;
+}
+
+/* Estoy probando colores y fuentes */
+p {
+    color: blue;
+    font-size: 16pt;
+}
+
+/* selectores de id */
+p#primera-noticia {
+    color: green;
+    font-size: 12pt;
+}
+
+#segunda-noticia {
+    color: chocolate;
+}
+
+/* selectores de clase */
+.encabezado {
+    font-size: 24pt;
+    color:brown;
+    text-transform: uppercase;
+}
+
+/* selector universal */
+* {
+    font-size: 12pt;
+}
+
+*.warning {
+    color: red;
+}
+
+
+/* ejemplo */
+.autor, .ubicacion, h1, #segunda-noticia {
+    text-decoration: underline;
+}
+
+.fecha {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
