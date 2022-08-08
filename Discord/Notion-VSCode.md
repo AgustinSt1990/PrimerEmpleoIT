@@ -55,7 +55,7 @@ Apretar una vez y Ctrl + K y luego Ctrl + S se ingresa a "Métodos abreviados de
 Ingresando a la configuración de atajos, buscar "Agregar comentario de linea" y se sugiere utilizar la configuración "Ctrl + /"
 > `( Ctrl + K ) + ( Ctrl + S )`<br />
 > `Escribir en el buscador "comentarios" y seleccionar "Agregar comentario de linea"`<br />
-> `Cambiar la configuración predeterminada`<br />
+> `Cambiar la configuración predeterminada`
 <br />
 
 <!-- 7 -->
@@ -79,8 +79,8 @@ Manteniendo el cursor sobre la linea, o multiples lineas que se desean borrar, a
 <h3>9. Deshacer y Rehacer</h3>
 
 Esto ya es conocido por todos.
-`Ctrl + Z: Deshacer`<br />
-`Ctrl + Shift + Z: Rehacer`
+> `Ctrl + Z: Deshacer`<br />
+> `Ctrl + Shift + Z: Rehacer`
 <br />
 
 <!-- 10 -->
@@ -98,7 +98,7 @@ Con esta herramienta de VSCode podemos colocar al comienzo y al final de un bloq
 
 Cuando estamos trabajando con un código que tiene variables definidas en una parte del archivo o en otro archivo, y nosotros inspeccionamos la parte donde se implementa, no donde se crea la definición, podemos acceder a ella, ya sea, a través de un display en pantalla sin movernos de donde estamos, o dirigirse a la sección del código donde se encuentra la definición, y sino abrira el archivo donde se encuentre almacenada la definición.
 > `Alt + F12: en pantalla & Esc (para cerrar)`<br />
-> `Alt + clic: te lleva al archivo`<br />
+> `Alt + clic: te lleva al archivo`
 <br />
 
 <!-- 13 -->
