@@ -78,10 +78,10 @@ Esto ya es conocido por todos.
 
 Con esta herramienta de VSCode podemos colocar al comienzo y al final de un bloque de texto seleccionado las correspondientes Tags "<>" de apertura y cierre. Luego escribiendo el nombre de la etiqueta se completa, y presionando la tecla Enter queda establecido.<br /> Este atajo permite encerrar el bloque en múltiples etiquetas escribiendo por ejemplo "div>p" va a crear un padre div y un hijo p. Se sugiere la configuración "Alt + W".
 
-`<div class="code" style="background: gray;">( Ctrl + K ) + ( Ctrl + S )
+<code class="code" style="background: gray;">( Ctrl + K ) + ( Ctrl + S )
 <br />Escribir en el buscador "Wrap with abbreviation"
-<br />Cambiar la configuración predeterminada</div>
-<br />`
+<br />Cambiar la configuración predeterminada</code>
+<br />
 
 <p style= "font-size:1.5rem;">12. Ir a la definicion</p>
 
