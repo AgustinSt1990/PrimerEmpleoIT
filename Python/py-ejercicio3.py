@@ -23,7 +23,7 @@ if __name__ == '__main__':
     fname = 'Agustin'
     lname = 'Stigliano'
     age = 32
-    email = 'af.stigliano@gmail.com'
+    email = '123@gmail.com'
     married = False
     children = False
     friend_list = ['Chueco', 'Cabeza', 'Colo', 'Guido', 'Primo']
