@@ -1,0 +1,104 @@
+mejorar la velocidad de programacion
+es la practica lo que naturaliza los procesos
+
+
+1. movimiento de lineas
+
+alt + flecha arriba/abajo
+
+
+2. movimiento de lineas - Part 2
+
+select + alt + flecha arriba/abajo
+(shift + tab)
+
+
+3. Comentar código
+
+configuracion - hotkeys - comentarios
+ctrl + /
+
+
+4. comentar parte de codigo
+
+Alt + shift + A
+
+
+5. creacion rapida de archivo
+
+ctrl + clic derecho (sobre el nombre del archivo en el script)
+
+
+6. Ir a la definicion
+
+Alt + F12: en pantalla + Esc
+Alt + clic: te lleva al archivo
+
+
+7. Borrar lineas
+
+Ctrl + Shift + K: una linea
+
+Ctrl + Shift + L: seleccion
++
+Ctrl + Shift + K: multilinea
++ Esc
+
+
+8. Deshacer y Rehacer
+
+Ctrl + Z: Deshacer
+Ctrl + Shift + Z: Rehacer
+
+
+9. Terminal Integrada
+
+10. 
+
+
+
+11. Emmet Wrap y Atajos personalizados
+
+configuracion - atajos de teclado
+
+Ctrl K + Ctrl S
+
+Wrap with abbreviation
+
+Alt + W
+
+# 12. Manejo de tabs
+
+Ctrl tab: cambio de ventana por solapa
+ctrl + W: cerrar
+ctrl + shift + t: abrir anterior
+ctrl K + ctrl w: cerrar todas
+
+-----
+
+Multiplecursos y edicion rapida de codigo
+
+(para mi esto va junto con alt flecha y ctrl shift flecha)
+13. Clonar lineas
+alt shift flecha
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
