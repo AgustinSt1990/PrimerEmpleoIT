@@ -1,7 +1,3 @@
-from email.message import EmailMessage
-from optparse import AmbiguousOptionError
-
-
 class DatosContacto:
     column_labels = ['Nombre', "Apellido", "Edad", "Email", "Casado", "Con_hijos", "Lista_amigos", "Peliculas_vistas"]
     
