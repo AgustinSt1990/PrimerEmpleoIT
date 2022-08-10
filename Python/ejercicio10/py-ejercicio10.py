@@ -12,6 +12,7 @@ def biciesto():
         year = int(year)
     except:
         print ('Dato no reconocido')
+        return
     
     if year % 100 == 0:
         if year % 400 == 0:
