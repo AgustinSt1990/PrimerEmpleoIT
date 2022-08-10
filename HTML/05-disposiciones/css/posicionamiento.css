@@ -1,0 +1,47 @@
+/* .static {
+    border: 1px solid gray;
+    padding: 5px;
+} */
+
+div {
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 5px;
+}
+
+/* Posicionamiento relativo: se posiciona en relacion al posicionamiento original */
+.relative {
+    position: relative;
+    left: 80px
+}
+
+/* posicionamiento fijo- se posiciona en relacion a la pantalla: es independiente, lo estamos fijando a una posición, abajo a la izquierda */
+.fixed {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color: goldenrod;
+    z-index: 10;
+}
+
+/* Poscionamiento absoluto - se posiciona de forma absoluta en funcion del elemento padre, en este caso es el body */
+.absolute {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    color: blue;
+    background-color: goldenrod;
+}
+
+.relative.conteiner {
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+}
+
+/* Posicionamiento Pegajoso: al hacer scroll modifica su posicionamiento relative */
+.sticky {
+    background-color: papayawhip;
+    position: sticky;
+    top: 0px;
+}

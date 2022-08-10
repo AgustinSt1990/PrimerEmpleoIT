@@ -11,5 +11,3 @@ def esPrimo(n):
     else:
         return True
 
-
-print (esPrimo(4))
