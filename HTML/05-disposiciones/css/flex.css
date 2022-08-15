@@ -1,0 +1,35 @@
+/* Experimentos */
+/* https://codepen.io/enxaneta/full/adLPwv */
+
+.flex {
+    display: flex;
+    /* en que direccion renderiza - column cambia el orden de los ejes */
+    flex-direction: column;
+    background-color: cornsilk;
+    height: 300px;
+    /* eje x */
+    justify-content: space-around;
+    /* ajuste eje x */
+    flex-wrap: nowrap;
+    /* eje y */
+    align-items: center;
+}
+
+.cont-1 {
+    background-color: white;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid blue;
+}
+.cont-2 {
+    background-color: white;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid blue;
+}
+.cont-3 {
+    background-color: white;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid blue;
+}
