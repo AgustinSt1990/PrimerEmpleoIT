@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Clases</title>
+    <!-- <link rel="stylesheet" href="../css/pseudoclases.css"> -->
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .hover {
+            width: 300px;
+            height: 300px;
+            background-color: bisque;
+        }
+
+        .hover:hover {
+            background-color: coral;
+        }
+
+        .listado {
+            padding: 15px;
+            background-color: aquamarine;
+        }
+
+        /* hace referncia al primer tag del selector */
+        .listado p:first-child {
+            color: white;
+        }
+        /* link no visitado todavia */
+        a:link{ 
+            color:blueviolet;
+        }
+
+        a:visited {
+            color: blueviolet;
+        }
+        a:hover {
+            color: black;
+        }
+        a:active{
+            color: greenyellow;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="hover">
+        <p>Este es el parrafo largo, como la cancion del a renga. Que van regando de vida los campos, un dia nublado para llorar, todo el cielo que te he confiado.</p>
+    </div>
+    <div class="listado">
+        <p>parrafo 1</p>
+        <p>parrafo 2</p>
+        <p>parrafo 3</p>
+    </div>
+    <div class="enlaces">
+        <a href="http://google.com" target="_blank">Enlace de google</a>
+        <a href="http://marca.com" target="_blank">Enlace a Marca</a>
+
+
+    </div>
+</body>
+</html>
