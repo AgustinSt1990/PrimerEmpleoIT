@@ -1,0 +1,37 @@
+En este ejercicio tendréis que:
+
+
+1) Crear una tabla llamada Alumnos que constará de tres columnas: 
+la columna id de tipo entero, 
+la columna nombre que será de tipo texto,
+la columna apellido que también será de tipo texto.
+
+Respuesta:
+
+CREATE TABLE `openbootcamp`.`alumnos` (
+  `id` INT NOT NULL,
+  `nombre` TEXT NOT NULL,
+  `apellido` TEXT NOT NULL,
+  PRIMARY KEY (`id`));
+
+
+2) Una vez creada la tabla, tenéis que insertarle datos, como mínimo tenéis que insertar 8 alumnos a la tabla.
+
+Respuesta:
+
+INSERT INTO `openbootcamp`.`alumnos` (`id`, `nombre`, `apellido`) VALUES ('1', 'Santiago', 'Calvo');
+INSERT INTO `openbootcamp`.`alumnos` (`id`, `nombre`, `apellido`) VALUES ('2', 'Susana', 'Artigas');
+INSERT INTO `openbootcamp`.`alumnos` (`id`, `nombre`, `apellido`) VALUES ('3', 'Pedro', 'Lascano');
+INSERT INTO `openbootcamp`.`alumnos` (`id`, `nombre`, `apellido`) VALUES ('4', 'Alicia', 'Padró');
+INSERT INTO `openbootcamp`.`alumnos` (`id`, `nombre`, `apellido`) VALUES ('5', 'Santiago', 'Lagrange');
+INSERT INTO `openbootcamp`.`alumnos` (`id`, `nombre`, `apellido`) VALUES ('6', 'Rene', 'Foucault');
+INSERT INTO `openbootcamp`.`alumnos` (`id`, `nombre`, `apellido`) VALUES ('7', 'Rene', 'Favaloro');
+INSERT INTO `openbootcamp`.`alumnos` (`id`, `nombre`, `apellido`) VALUES ('8', 'Nicolas', 'Tesla');
+
+
+3) Por último, tienes que realizar una búsqueda de un alumno por nombre y mostrar los datos por consola.
+
+Respuesta:
+
+SELECT * FROM openbootcamp.alumnos
+WHERE apellido like "P%";
