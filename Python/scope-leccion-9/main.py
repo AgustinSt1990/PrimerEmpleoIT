@@ -18,6 +18,11 @@ def ingrese_paises():
 # En este segundo ejercicio, tenéis que crear una aplicación que obtendrá los elementos impares de una lista pasada por parámetro con filter 
 # y realizará una suma de todos estos elementos obtenidos mediante reduce.
 
+
+# si la funcion lambda impar 
+# entra en un map: se convierte en una mascara booleana (sirve para .sum())
+# entra en un filter: aplica la mascara boolena
+#
 def suma_impares(lista):
     impar = lambda x: x%2 != 0
     result = filter(impar, lista)
