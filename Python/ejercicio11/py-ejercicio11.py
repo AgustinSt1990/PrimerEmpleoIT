@@ -11,21 +11,34 @@
 
 # Por último, tendrás que crear un objeto de la clase Coche y mostrarlo por consola.
 
+
 class Vehiculo:
-    color = 'blanco'
+    color = "blanco"
     ruedas = 5
     puertas = 4
+
 
 class Coche(Vehiculo):
     velocidad = 130
     cilindrada = 1500
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     v = Coche()
-    print (
-    'color: ',v.color, '\n', \
-    'ruedas: ',v.ruedas, '\n', \
-    'puertas: ',v.puertas, '\n', \
-    'velocidad: ',v.velocidad, '\n', \
-    'cilindrada: ',v.cilindrada, '\n'
+    print(
+        "color: ",
+        v.color,
+        "\n",
+        "ruedas: ",
+        v.ruedas,
+        "\n",
+        "puertas: ",
+        v.puertas,
+        "\n",
+        "velocidad: ",
+        v.velocidad,
+        "\n",
+        "cilindrada: ",
+        v.cilindrada,
+        "\n",
     )

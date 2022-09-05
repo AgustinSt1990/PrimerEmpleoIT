@@ -10,4 +10,3 @@ def esPrimo(n):
 
     else:
         return True
-
