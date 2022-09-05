@@ -1,0 +1,28 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<h1>Local Library Home</h1>
+
+    <p>Hola, <em>aquí pueden encontrar una librería de películas</em></p>
+
+    <div class="ejemplo-clase">
+        <h2>Contenido Dinámico</h2>
+            <p>The library has the following records:</p>
+            <ul>
+                <li><strong>Movies:</strong> {{ num_movies }}</li>
+                <li><strong>Genres:</strong> {{ num_genre }}</li>
+                <li><strong>Directors:</strong> {{ num_directors }}</li>
+            </ul>
+    </div>
+        
+    <br />
+
+    <div class="objeto-movie">
+        <h4>Catálogo peliculas</h4>
+        <ul>
+            <li>{{ all_movies }}</li>
+            </ul>
+    </div>
+
+
+{% endblock %}
